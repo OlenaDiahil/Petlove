@@ -1,0 +1,78 @@
+.header {
+  padding-top: 32px;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.logo {
+  font-weight: var(--extra-bold);
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: var(--black);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item {
+  font-weight: var(--medium);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  border: 1px solid color-mix(in srgb, var(--black) 15%, transparent);
+  border-radius: 30px;
+  padding: 15px 20px;
+  color: var(--black);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  border-color: var(--main-color);
+}
+
+.auth-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.auth-item {
+  border-radius: 30px;
+  font-weight: var(--bold);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 15px 35px;
+}
+
+.auth-item.log {
+  background-color: var(--main-color);
+}
+
+.auth-item.log:hover,
+.auth-item.log:focus,
+.auth-item.log:active {
+  background: var(--active-color);
+}
+
+.auth-item.reg {
+  padding: 15px 20px;
+  color: var(--main-color);
+  background: var(--second-color);
+}
+
+.auth-item.reg:hover,
+.auth-item.reg:focus,
+.auth-item.reg:active {
+  background: var(--second-active);
+}

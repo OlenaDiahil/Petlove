@@ -1,19 +1,16 @@
-body {
+.main-body {
   background-color: var(--white);
 }
 
-.header {
+.header-main {
   padding-top: 15px;
 }
 
-.container-header {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
+.container.main {
   padding: 0 32px;
 }
 
-.wraper-nav {
+.wraper-nav-main {
   padding: 16px 64px 0px 64px;
   background-color: var(--main-color);
   border-radius: 60px 60px 0 0;
@@ -26,12 +23,8 @@ body {
   gap: 8px;
 }
 
-.logo {
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  color: var(--black);
+.logo.main-logo {
+  color: var(--white);
 }
 
 .nav-menu {
@@ -39,15 +32,19 @@ body {
   gap: 10px;
 }
 
-.nav-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  letter-spacing: -0.03em;
-  color: var(--black);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 30px;
-  padding: 15px 20px;
+.nav-item.main {
+  border: 1px solid color-mix(in srgb, var(--white) 40%, transparent);
+  color: var(--white);
+}
+
+.nav-item.main:hover,
+.nav-item.main:focus,
+.nav-item.main:active,
+.auth-item.main-log:hover,
+.auth-item.main-log:focus,
+.auth-item.main-log:active {
+  background: var(--second-color);
+  color: var(--main-color);
 }
 
 .auth-nav {
@@ -55,15 +52,12 @@ body {
   gap: 8px;
 }
 
-.auth-item {
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 30px;
-  padding: 15px 35px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
+.main-color {
+  color: var(--white);
+}
+
+.auth-item.main-log {
+  border: 1px solid color-mix(in srgb, var(--white) 40%, transparent);
 }
 
 .container-hero {
@@ -78,6 +72,7 @@ body {
   padding: 112px 64px 32px 64px;
   border-radius: 0 0 60px 60px;
   display: flex;
+  gap: 8px;
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -97,11 +92,7 @@ body {
 .hero-descr {
   width: 100%;
   max-width: 255px;
-  font-weight: 500;
+  font-weight: var(--medium);
   font-size: 18px;
   line-height: 1.22;
-}
-
-.main {
-  color: var(--white);
 }
