@@ -1,0 +1,10 @@
+.wraper-title-friends {
+  margin-bottom: 60px;
+}
+
+.friends-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 28px;
+  column-gap: 20px;
+}
