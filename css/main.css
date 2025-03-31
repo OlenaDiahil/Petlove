@@ -60,6 +60,10 @@
   border: 1px solid color-mix(in srgb, var(--white) 40%, transparent);
 }
 
+.hero {
+  margin-bottom: 16px;
+}
+
 .container-hero {
   width: 100%;
   max-width: 1280px;
@@ -95,4 +99,15 @@
   font-weight: var(--medium);
   font-size: 18px;
   line-height: 1.22;
+}
+
+.background-hero {
+  border-radius: 60px;
+  width: 100%;
+  max-width: 1216px;
+  height: 384px;
+  background-image: url(../images/hero-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
