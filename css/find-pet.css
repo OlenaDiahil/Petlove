@@ -1,0 +1,10 @@
+.container.search-container {
+  padding: 0 32px;
+}
+
+.wrapper-search-container {
+  background: var(--second-color);
+  border-radius: 30px;
+  height: 216px;
+  padding: 40px;
+}
