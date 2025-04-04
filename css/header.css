@@ -10,11 +10,22 @@
 }
 
 .logo {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: var(--extra-bold);
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.04em;
   color: var(--black);
+}
+
+.svg-logo {
+  padding: 3.45px 2.3px;
+  width: 23px;
+  height: 23px;
+  fill: var(--main-color);
 }
 
 .nav-menu {

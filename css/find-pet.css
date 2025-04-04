@@ -123,10 +123,17 @@
 .btn-like {
   border: none;
   border-radius: 30px;
-  padding: 15px;
   width: 48px;
   height: 48px;
   background-color: var(--second-color);
+}
+
+.svg-like {
+  width: 18px;
+  height: 16px;
+  fill: transparent;
+  stroke: var(--main-color);
+  stroke-width: 1.5px;
 }
 
 .btn-like:hover,

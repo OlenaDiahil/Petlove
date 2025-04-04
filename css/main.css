@@ -24,7 +24,12 @@
 }
 
 .logo.main-logo {
+  width: 106px;
   color: var(--white);
+}
+
+.main-svg-logo {
+  fill: currentColor;
 }
 
 .nav-menu {
